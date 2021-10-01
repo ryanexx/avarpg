@@ -24,3 +24,26 @@
   </div>
 </template>
 
+<script>
+export default {
+  components: {},
+  mounted() {},
+  data() {
+    return {
+      apps: [
+    
+       
+      ],
+      active: 0,
+      dialog: false,
+      icons: ["mdi-rewind", "mdi-play", "mdi-fast-forward"],
+      transparent: "rgba(255, 255, 255, 0)",
+    };
+  },
+  methods: {
+    datachange() {
+      alert("cxc");
+    },
+  },
+};
+</script>
