@@ -48,5 +48,5 @@ export default {
       alert("cxc");
     },
   },
-};
+}; 
 </script>
