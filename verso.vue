@@ -25,6 +25,7 @@
 </template>
 
 <script>
+console.log("dsds")
 export default {
   components: {},
   mounted() {
