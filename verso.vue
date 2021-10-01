@@ -27,7 +27,9 @@
 <script>
 export default {
   components: {},
-  mounted() {},
+  mounted() {
+   alert("cxc");
+  },
   data() {
     return {
       apps: [
